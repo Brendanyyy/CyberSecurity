@@ -1,0 +1,43 @@
+This write-up documents my progress through the first introductory picoCTF challenges, focusing specifically on First Grep and First Find. These challenges are designed to introduce basic Linux command-line skills that are essential for solving Capture The Flag (CTF) problems. Through completing these tasks, I developed foundational knowledge in file handling, searching, and navigation within a Linux environment.
+
+Challenge 1: First Grep
+
+Objective:
+The goal of the First Grep challenge was to locate the flag hidden inside a text file using the grep command.
+
+Approach:
+I was provided with a text file containing a large amount of data. Instead of manually scanning the file, I used the grep command to search for a specific keyword associated with the flag format (picoCTF{}).
+
+Command Used:
+
+grep picoCTF file.txt
+
+
+Outcome:
+The command successfully displayed the line containing the flag. This challenge helped me understand how powerful grep is for efficiently searching through files, especially when dealing with large datasets.
+
+Key Takeaways:
+
+Learned how to use grep to search for patterns in files
+
+Understood the importance of command-line tools in speeding up problem solving
+
+Recognized that flags often follow predictable formats that can be searched programmatically
+
+Challenge 2: First Find
+
+Objective:
+The First Find challenge required locating a hidden file within a directory structure using the find command.
+
+Approach:
+The challenge directory contained many files and folders. I used the find command to search for files with specific characteristics, such as file name or type, instead of browsing manually.
+
+Command Used:
+
+find . -name 
+
+
+After identifying the correct file, I opened it to retrieve the flag.
+
+Outcome:
+The correct file was located successfully, and the flag was extracted. This challenge demonstrated how find can be used to navigate complex directory structures efficiently.
