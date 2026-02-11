@@ -1,0 +1,57 @@
+Week 1: Mathematical Foundations for Cryptography
+
+Days 1–2: Modular arithmetic, prime numbers, GCD, Extended Euclidean Algorithm
+
+Days 3–4: Modular inverse, Fermat’s Little Theorem, Euler’s Totient Function
+
+Days 5–6: Fast exponentiation, discrete logarithm problem (concept)
+
+Day 7: Implement all math concepts in Python (or C if preferred)
+
+Weekend: Solve 5 beginner crypto challenges (picoCTF / CryptoHack)
+
+Week 2: Classical + Symmetric Cryptography
+
+Days 1–2: Classical ciphers (Caesar, Vigenère, Substitution, frequency analysis)
+
+Days 3–4: Block ciphers fundamentals (DES concept, AES structure)
+
+Day 5: Block cipher modes (ECB vs CBC vs CTR vs GCM)
+
+Day 6: Padding (PKCS#7) + why ECB is insecure
+
+Day 7: Implement AES encryption/decryption using Python library
+
+Weekend: CryptoPals Set 1 (complete all challenges)
+
+Week 3: Asymmetric Cryptography & Hashing
+
+Days 1–2: RSA (math + full implementation from scratch)
+
+Day 3: Diffie-Hellman key exchange
+
+Day 4: Elliptic Curve Cryptography (concept + why it’s efficient)
+
+Day 5: Hash functions (SHA-256, collisions, preimage resistance)
+
+Day 6: Digital signatures + HMAC
+
+Day 7: Use OpenSSL to generate keys, sign, verify
+
+Weekend: Solve 10 crypto CTF challenges (medium level)
+
+Week 4: Applied Cryptography & Real-World Security
+
+Days 1–2: How HTTPS/TLS handshake works
+
+Day 3: Password hashing (bcrypt, salting, PBKDF2)
+
+Day 4: Random number generation + why weak RNG breaks crypto
+
+Day 5: Common crypto attacks (padding oracle, replay, MITM)
+
+Day 6: Analyze real vulnerabilities (ECB misuse, weak RSA keys)
+
+Day 7: Try to solve a Advance Level Crypto Challenge 
+
+Weekend: Join live CTF and attempt only crypto challenges
