@@ -148,6 +148,7 @@ Write 1-page report
 
 Day 29 (Final CTF Prep)
 Solve 5 fast network challenges
+
 Day 30 (Final Competition Day)
 Join full CTF
 Focus only on network forensics
